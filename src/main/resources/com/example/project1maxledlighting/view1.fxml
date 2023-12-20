@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="347.0" prefWidth="559.0" spacing="30.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project1maxledlighting.Controller1">
+    <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the Maximum  Led Lighting  Dynamically">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Text>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Please Choose the File to start" />
+        <Text fx:id="lengthText" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="maxLightText" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="99.0" prefWidth="310.0" spacing="50.0">
+            <children>
+                <Button fx:id="openBtn" mnemonicParsing="false" onAction="#openFile" text="CHOOSE FILE"
+                style="-fx-background-color: #91c7b1; -fx-text-fill: White;  -fx-border-width: 2; -fx-border-color: #6a9485"
+                />
+                <Button fx:id="startBtn" mnemonicParsing="false" onAction="#switchToView2" text="START →"
+                        style="-fx-background-color: #b33951; -fx-text-fill: White; -fx-border-width: 2; -fx-border-color: #80283b"/>
+            </children>
+        </HBox>
+    </children>
+</VBox>

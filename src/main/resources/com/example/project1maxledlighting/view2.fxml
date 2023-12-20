@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project1maxledlighting.Controller2">
+    <children>
+        <ScrollPane VBox.vgrow="ALWAYS">
+            <content>
+                <AnchorPane fx:id="connectionPane" prefHeight="423.0" prefWidth="600.0" />
+            </content>
+        </ScrollPane>
+        <HBox alignment="CENTER" prefHeight="115.0" prefWidth="600.0" spacing="50.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#switchToStart" text="← back"
+                        style="-fx-background-color: #91c7b1; -fx-text-fill: White;  -fx-border-width: 2; -fx-border-color: #6a9485"/>
+                <Button mnemonicParsing="false" onAction="#switchToTable" text="table →"
+                        style="-fx-background-color: #b33951; -fx-text-fill: White; -fx-border-width: 2; -fx-border-color: #80283b"/>
+            </children>
+        </HBox>
+    </children>
+</VBox>
